@@ -1,6 +1,6 @@
 # Roman to Integer
 
-https://leetcode.com/problems/roman-to-integer/
+**Note:** This sample only goes to *3,999*.
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
@@ -47,3 +47,9 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 1 <= s.length <= 15
 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+
+# More Info
+
+[Leetcode Problem](https://leetcode.com/problems/roman-to-integer/)
+
+[Useful Reference](https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php)

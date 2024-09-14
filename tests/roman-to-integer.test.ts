@@ -30,6 +30,10 @@ test(`MCMXCIV should equal 1994.`, () => {
   expect(romanToInt("MCMXCIV")).toEqual(1994);
 });
 
+// THIS WILL FAIL - romanToInt only goes to 3,999
+test(`CDIXCCIX should equal 409209.`, () => {
+  expect(romanToInt("CDIXCCIX")).toEqual(409209);
+});
 
 
 
